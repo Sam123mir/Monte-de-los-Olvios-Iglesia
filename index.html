@@ -67,103 +67,6 @@
     <i class="fas fa-bars"></i>
   </button>
 
-  <!-- Cookie Consent Banner -->
-<div id="cookie-consent-banner" class="cookie-consent-banner" role="dialog" aria-modal="true" aria-labelledby="cookie-consent-title" aria-describedby="cookie-consent-description">
-  <div class="cookie-consent-content">
-    <div class="cookie-consent-icon">
-      <i class="fas fa-cookie-bite"></i>
-    </div>
-    <div class="cookie-consent-text">
-      <h3 id="cookie-consent-title">Usamos cookies</h3>
-      <p id="cookie-consent-description">
-        Utilizamos cookies propias y de terceros para mejorar tu experiencia,
-        analizar el uso de nuestro sitio web y mostrarte publicidad relacionada
-        con tus preferencias. Al hacer clic en "Aceptar todas", aceptas el uso
-        de todas las cookies. Puedes <button id="cookie-settings-btn" class="cookie-link">configurar tus preferencias</button>
-        o <a href="/politica-de-cookies" target="_blank" rel="noopener noreferrer">leer nuestra política de cookies</a>.
-      </p>
-    </div>
-    <div class="cookie-consent-actions">
-      <button id="cookie-reject-btn" class="btn-secundario cookie-btn">
-        <i class="fas fa-times"></i> Rechazar
-      </button>
-      <button id="cookie-accept-btn" class="btn-primario cookie-btn">
-        <i class="fas fa-check"></i> Aceptar todas
-      </button>
-    </div>
-  </div>
-
-  <!-- Modal de configuración de cookies (oculto por defecto) -->
-  <div id="cookie-settings-modal" class="cookie-settings-modal" role="dialog" aria-modal="true" aria-labelledby="cookie-settings-title">
-    <div class="modal-backdrop">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 id="cookie-settings-title">Configuración de Cookies</h3>
-          <button class="modal-close" aria-label="Cerrar configuración de cookies">
-            <i class="fas fa-times"></i>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p class="cookie-settings-description">
-            Aquí puedes elegir qué tipo de cookies permites en este sitio web.
-          </p>
-
-          <div class="cookie-category">
-            <h4>Cookies Necesarias</h4>
-            <p>Estas cookies son esenciales para el funcionamiento básico del sitio web.</p>
-            <div class="cookie-toggle">
-              <label class="switch">
-                <input type="checkbox" id="necessary-cookies" checked disabled>
-                <span class="slider round"></span>
-              </label>
-              <span>Siempre activadas</span>
-            </div>
-          </div>
-
-          <div class="cookie-category">
-            <h4>Cookies de Rendimiento</h4>
-            <p>Nos ayudan a mejorar el rendimiento del sitio web.</p>
-            <div class="cookie-toggle">
-              <label class="switch">
-                <input type="checkbox" id="performance-cookies" checked>
-                <span class="slider round"></span>
-              </label>
-            </div>
-          </div>
-
-          <div class="cookie-category">
-            <h4>Cookies de Funcionalidad</h4>
-            <p>Permiten recordar tus preferencias (como el idioma).</p>
-            <div class="cookie-toggle">
-              <label class="switch">
-                <input type="checkbox" id="functionality-cookies" checked>
-                <span class="slider round"></span>
-              </label>
-            </div>
-          </div>
-
-          <div class="cookie-category">
-            <h4>Cookies de Publicidad</h4>
-            <p>Se usan para mostrarte anuncios relevantes.</p>
-            <div class="cookie-toggle">
-              <label class="switch">
-                <input type="checkbox" id="advertising-cookies" checked>
-                <span class="slider round"></span>
-              </label>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button id="cookie-save-settings" class="btn-primario">
-            <i class="fas fa-save"></i> Guardar preferencias
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
   <!-- Navigation Menu -->
   <nav class="menu-horizontal" role="navigation" aria-label="Menú principal">
     <button class="menu-item" data-target="#info" aria-label="Ir a información de la iglesia">
@@ -335,7 +238,7 @@
       
       <div class="galeria-grid" id="galeria-comunidad" role="tabpanel" aria-labelledby="tab-comunidad">
         <figure class="galeria-item">
-          <img src="Imagenes/adoracion1.jpg" alt="Miembros de la comunidad durante un servicio" class="galeria-img" loading="lazy">
+          <img src="Imagenes/1.jpg" alt="Miembros de la comunidad durante un servicio" class="galeria-img" loading="lazy">
           <figcaption class="sr-only">Comunidad en adoración</figcaption>
         </figure>
         <figure class="galeria-item">
@@ -1118,5 +1021,30 @@
       document.querySelector('#recursos cite').textContent = `— ${versiculo.cita}`;
     });
   </script>
+  <!-- Cookie Consent Banner -->
+<div id="cookie-consent-banner" class="cookie-consent-banner" role="dialog" aria-modal="true" aria-labelledby="cookie-consent-title" aria-describedby="cookie-consent-description">
+  <div class="cookie-consent-content">
+    <div class="cookie-consent-icon">
+      <i class="fas fa-cookie-bite"></i>
+    </div>
+    <div class="cookie-consent-text">
+      <h3 id="cookie-consent-title">Usamos cookies</h3>
+      <p id="cookie-consent-description">
+        Utilizamos cookies para mejorar tu experiencia en nuestro sitio web.
+        Al hacer clic en "Aceptar", consientes el uso de cookies.
+        <a href="/politica-de-cookies" target="_blank" rel="noopener noreferrer">Política de Cookies</a>
+      </p>
+    </div>
+    <div class="cookie-consent-actions">
+      <button id="cookie-reject-btn" class="btn-secundario cookie-btn">
+        <i class="fas fa-times"></i> Rechazar
+      </button>
+      <button id="cookie-accept-btn" class="btn-primario cookie-btn">
+        <i class="fas fa-check"></i> Aceptar
+      </button>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
