@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monte de los Olivos - Iglesia Cristiana Madrid</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Iglesia Cristiana Monte de los Olivos en Madrid. Servicios dominicales, ministerios, eventos y comunidad de fe. Calle Secoya 20.">
+  <meta name="keywords" content="iglesia, cristiana, Madrid, Monte de los Olivos, fe, comunidad, ministerios, culto, oración">
+  <meta name="author" content="Monte de los Olivos">
+  <link rel="canonical" href="https://montedelosolivos.es">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Monte de los Olivos - Iglesia Cristiana Madrid">
+  <meta property="og:description" content="Únete a nuestra comunidad de fe en Madrid. Servicios dominicales y jueves.">
+  <meta property="og:image" content="./Imagenes/monte.png">
+  <meta property="og:url" content="https://montedelosolivos.es">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Monte de los Olivos - Iglesia Cristiana Madrid">
+  <meta name="twitter:description" content="Únete a nuestra comunidad de fe en Madrid. Servicios dominicales y jueves.">
+  <meta name="twitter:image" content="./Imagenes/monte.png">
+  
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="./Imagenes/monte.png">
+  <link rel="apple-touch-icon" href="./Imagenes/monte.png">
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  
+  <!-- Structured Data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Church",
+    "name": "Monte de los Olivos",
+    "description": "Iglesia Cristiana en Madrid",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle de Secoya 20",
+      "addressLocality": "Madrid",
+      "addressCountry": "ES"
+    },
+    "telephone": "+34 670 72 72 47",
+    "email": "montelosolivo@gmail.com",
+    "url": "https://montedelosolivos.es",
+    "openingHours": ["Th 20:30-22:30", "Su 09:00-11:00"]
+  }
+  </script>
+</head>
+<body>
+  <!-- Loading Spinner -->
+  <div id="loading-spinner" class="loading-spinner" aria-hidden="true">
+    <div class="spinner"></div>
+    <p>Cargando...</p>
+  </div>
+
+  <!-- Skip to content link for accessibility -->
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- Mobile menu toggle -->
+  <button class="mobile-menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <!-- Cookie Consent Banner -->
+<div id="cookie-consent-banner" class="cookie-consent-banner" role="dialog" aria-modal="true" aria-labelledby="cookie-consent-title" aria-describedby="cookie-consent-description">
+  <div class="cookie-consent-content">
+    <div class="cookie-consent-icon">
+      <i class="fas fa-cookie-bite"></i>
+    </div>
+    <div class="cookie-consent-text">
+      <h3 id="cookie-consent-title">Usamos cookies</h3>
+      <p id="cookie-consent-description">
+        Utilizamos cookies propias y de terceros para mejorar tu experiencia,
+        analizar el uso de nuestro sitio web y mostrarte publicidad relacionada
+        con tus preferencias. Al hacer clic en "Aceptar todas", aceptas el uso
+        de todas las cookies. Puedes <button id="cookie-settings-btn" class="cookie-link">configurar tus preferencias</button>
+        o <a href="/politica-de-cookies" target="_blank" rel="noopener noreferrer">leer nuestra política de cookies</a>.
+      </p>
+    </div>
+    <div class="cookie-consent-actions">
+      <button id="cookie-reject-btn" class="btn-secundario cookie-btn">
+        <i class="fas fa-times"></i> Rechazar
+      </button>
+      <button id="cookie-accept-btn" class="btn-primario cookie-btn">
+        <i class="fas fa-check"></i> Aceptar todas
+      </button>
+    </div>
+  </div>
+
+  <!-- Modal de configuración de cookies (oculto por defecto) -->
+  <div id="cookie-settings-modal" class="cookie-settings-modal" role="dialog" aria-modal="true" aria-labelledby="cookie-settings-title">
+    <div class="modal-backdrop">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 id="cookie-settings-title">Configuración de Cookies</h3>
+          <button class="modal-close" aria-label="Cerrar configuración de cookies">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="cookie-settings-description">
+            Aquí puedes elegir qué tipo de cookies permites en este sitio web.
+          </p>
+
+          <div class="cookie-category">
+            <h4>Cookies Necesarias</h4>
+            <p>Estas cookies son esenciales para el funcionamiento básico del sitio web.</p>
+            <div class="cookie-toggle">
+              <label class="switch">
+                <input type="checkbox" id="necessary-cookies" checked disabled>
+                <span class="slider round"></span>
+              </label>
+              <span>Siempre activadas</span>
+            </div>
+          </div>
+
+          <div class="cookie-category">
+            <h4>Cookies de Rendimiento</h4>
+            <p>Nos ayudan a mejorar el rendimiento del sitio web.</p>
+            <div class="cookie-toggle">
+              <label class="switch">
+                <input type="checkbox" id="performance-cookies" checked>
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="cookie-category">
+            <h4>Cookies de Funcionalidad</h4>
+            <p>Permiten recordar tus preferencias (como el idioma).</p>
+            <div class="cookie-toggle">
+              <label class="switch">
+                <input type="checkbox" id="functionality-cookies" checked>
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="cookie-category">
+            <h4>Cookies de Publicidad</h4>
+            <p>Se usan para mostrarte anuncios relevantes.</p>
+            <div class="cookie-toggle">
+              <label class="switch">
+                <input type="checkbox" id="advertising-cookies" checked>
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button id="cookie-save-settings" class="btn-primario">
+            <i class="fas fa-save"></i> Guardar preferencias
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Navigation Menu -->
+  <nav class="menu-horizontal" role="navigation" aria-label="Menú principal">
+    <button class="menu-item" data-target="#info" aria-label="Ir a información de la iglesia">
+      <i class="fas fa-church" aria-hidden="true"></i> 
+      <span>Monte de los Olivos</span>
+    </button>
+    <button class="menu-item" data-target="#horarios" aria-label="Ver horarios de servicios">
+      <i class="fas fa-clock" aria-hidden="true"></i> 
+      <span>Horarios</span>
+    </button>
+    <button class="menu-item" data-target="#eventos" aria-label="Ver próximos eventos">
+      <i class="fas fa-calendar-alt" aria-hidden="true"></i> 
+      <span>Eventos</span>
+    </button>
+    <button class="menu-item" data-target="#galeria" aria-label="Ver galería de fotos">
+      <i class="fas fa-images" aria-hidden="true"></i> 
+      <span>Galería</span>
+    </button>
+    <button class="menu-item" data-target="#ministerios" aria-label="Conocer nuestros ministerios">
+      <i class="fas fa-users" aria-hidden="true"></i> 
+      <span>Ministerios</span>
+    </button>
+    <button class="menu-item" data-target="#anuncios" aria-label="Ver canal de anuncios">
+      <i class="fas fa-bullhorn" aria-hidden="true"></i> 
+      <span>Anuncios</span>
+    </button>
+    <button class="menu-item" data-target="#recursos" aria-label="Acceder a recursos espirituales">
+      <i class="fas fa-book-open" aria-hidden="true"></i> 
+      <span>Recursos</span>
+    </button>
+    <button class="menu-item" data-target="#ubicacion" aria-label="Ver ubicación de la iglesia">
+      <i class="fas fa-map-marker-alt" aria-hidden="true"></i> 
+      <span>Ubicación</span>
+    </button>
+    <button class="menu-item" data-target="#testimonios" aria-label="Leer testimonios">
+      <i class="fas fa-heart" aria-hidden="true"></i> 
+      <span>Testimonios</span>
+    </button>
+    <button class="menu-item" data-target="#donaciones" aria-label="Realizar donaciones">
+      <i class="fas fa-hand-holding-heart" aria-hidden="true"></i> 
+      <span>Donaciones</span>
+    </button>
+    <button class="menu-item" data-target="#contacto" aria-label="Contactar con la iglesia">
+      <i class="fas fa-envelope" aria-hidden="true"></i> 
+      <span>Contacto</span>
+    </button>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    <!-- Header -->
+    <header id="info" class="section-blur fade-in" role="banner">
+      <img src="Imagenes/logo_monte.jpg" alt="Logo de la Iglesia Monte de los Olivos" class="logo" loading="eager">
+      <div class="header-text">
+        <h1 class="title-main">Monte de los Olivos</h1>
+        <p class="subtitle">Iglesia Cristiana — Calle Secoya 20 🌿🕊️</p>
+        <p class="welcome-text">
+          "Venid a mí todos los que estáis trabajados y cargados, y yo os haré descansar." - Mateo 11:28
+        </p>
+      </div>
+    </header>
+
+    <!-- Horarios -->
+    <section id="horarios" class="section-blur fade-in" aria-labelledby="horarios-heading">
+      <h2 id="horarios-heading">Horarios de Servicios</h2>
+      <div class="horarios-grid">
+        <div class="horario-card">
+          <div class="horario-icon">
+            <i class="fas fa-calendar-day" aria-hidden="true"></i>
+          </div>
+          <h3>Servicio de Jueves</h3>
+          <p class="horario-time">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            8:30 PM – 10:30 PM
+          </p>
+          <p class="horario-description">Estudio bíblico y oración</p>
+        </div>
+        <div class="horario-card">
+          <div class="horario-icon">
+            <i class="fas fa-sun" aria-hidden="true"></i>
+          </div>
+          <h3>Servicio Dominical</h3>
+          <p class="horario-time">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            9:00 AM – 11:00 AM
+          </p>
+          <p class="horario-description">Culto principal y comunión</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Próximos Eventos -->
+    <section id="eventos" class="section-blur fade-in" aria-labelledby="eventos-heading">
+      <h2 id="eventos-heading">Próximos Eventos</h2>
+      <div class="eventos-container">
+        <article class="evento">
+          <div class="evento-fecha" aria-label="15 de enero">
+            <span class="dia">15</span>
+            <span class="mes">ENE</span>
+          </div>
+          <div class="evento-info">
+            <h3>Conferencia de Jóvenes</h3>
+            <p>
+              <i class="fas fa-clock" aria-hidden="true"></i> 
+              <time datetime="19:00">7:00 PM</time> - <time datetime="21:00">9:00 PM</time>
+            </p>
+            <p>
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i> 
+              Salón Principal
+            </p>
+            <p class="evento-descripcion">Un tiempo especial para que los jóvenes crezcan en su fe</p>
+          </div>
+        </article>
+        
+        <article class="evento">
+          <div class="evento-fecha" aria-label="22 de enero">
+            <span class="dia">22</span>
+            <span class="mes">ENE</span>
+          </div>
+          <div class="evento-info">
+            <h3>Retiro Familiar</h3>
+            <p>
+              <i class="fas fa-clock" aria-hidden="true"></i> 
+              <time datetime="09:00">9:00 AM</time> - <time datetime="18:00">6:00 PM</time>
+            </p>
+            <p>
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i> 
+              Centro de Retiros
+            </p>
+            <p class="evento-descripcion">Un día de bendición para toda la familia</p>
+          </div>
+        </article>
+        
+        <article class="evento">
+          <div class="evento-fecha" aria-label="29 de enero">
+            <span class="dia">29</span>
+            <span class="mes">ENE</span>
+          </div>
+          <div class="evento-info">
+            <h3>Noche de Alabanza</h3>
+            <p>
+              <i class="fas fa-clock" aria-hidden="true"></i> 
+              <time datetime="20:00">8:00 PM</time> - <time datetime="22:00">10:00 PM</time>
+            </p>
+            <p>
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i> 
+              Santuario
+            </p>
+            <p class="evento-descripcion">Una noche especial de adoración y alabanza</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Galería de Fotos -->
+    <section id="galeria" class="section-blur fade-in" aria-labelledby="galeria-heading">
+      <h2 id="galeria-heading">Galería</h2>
+      <div class="galeria-tabs" role="tablist" aria-label="Categorías de galería">
+        <button class="tab-btn active" data-tab="comunidad" role="tab" aria-selected="true" aria-controls="galeria-comunidad">
+          Comunidad
+        </button>
+        <button class="tab-btn" data-tab="eventos" role="tab" aria-selected="false" aria-controls="galeria-eventos">
+          Eventos
+        </button>
+        <button class="tab-btn" data-tab="instalaciones" role="tab" aria-selected="false" aria-controls="galeria-instalaciones">
+          Instalaciones
+        </button>
+      </div>
+      
+      <div class="galeria-grid" id="galeria-comunidad" role="tabpanel" aria-labelledby="tab-comunidad">
+        <figure class="galeria-item">
+          <img src="Imagenes/adoracion1.jpg" alt="Miembros de la comunidad durante un servicio" class="galeria-img" loading="lazy">
+          <figcaption class="sr-only">Comunidad en adoración</figcaption>
+        </figure>
+        <figure class="galeria-item">
+          <img src="Imagenes/blog1.jpg" alt="Grupo de estudio bíblico" class="galeria-img" loading="lazy">
+          <figcaption class="sr-only">Estudio bíblico grupal</figcaption>
+        </figure>
+        <figure class="galeria-item">
+          <img src="Imagenes/placeholder-comunidad3.jpg" alt="Actividad comunitaria" class="galeria-img" loading="lazy">
+          <figcaption class="sr-only">Actividad de la comunidad</figcaption>
+        </figure>
+        <figure class="galeria-item">
+          <img src="Imagenes/placeholder-comunidad4.jpg" alt="Momento de oración grupal" class="galeria-img" loading="lazy">
+          <figcaption class="sr-only">Oración comunitaria</figcaption>
+        </figure>
+      </div>
+      
+      <div class="galeria-grid hidden" id="galeria-eventos" role="tabpanel" aria-labelledby="tab-eventos">
+        <figure class="galeria-item">
+          <img src="Imagenes/placeholder-evento1.jpg" alt="Conferencia de jóvenes anterior" class="galeria-img" loading="lazy">
+          <figcaption class="sr-only">Conferencia de jóvenes</figcaption>
+        </figure>
+        <figure class="galeria-item">
+          <img src="Imagenes/placeholder-evento2.jpg" alt="Retiro familiar pasado" class="galeria-img" loading="lazy">
+          <figcaption class="sr-only">Retiro familiar</figcaption>
+        </figure>
+        <figure class="galeria-item">
+          <img src="Imagenes/placeholder-evento3.jpg" alt="Noche de alabanza" class="galeria-img" loading="lazy">
+          <figcaption class="sr-only">Noche de alabanza</figcaption>
+        </figure>
+        <figure class="galeria-item">
+          <img src="Imagenes/placeholder-evento4.jpg" alt="Evento especial" class="galeria-img" loading="lazy">
+          <figcaption class="sr-only">Evento especial</figcaption>
+        </figure>
+      </div>
+      
+      <div class="galeria-grid hidden" id="galeria-instalaciones" role="tabpanel" aria-labelledby="tab-instalaciones">
+        <figure class="galeria-item">
+          <img src="Imagenes/placeholder-instalacion1.jpg" alt="Santuario principal" class="galeria-img" loading="lazy">
+          <figcaption class="sr-only">Santuario principal</figcaption>
+        </figure>
+        <figure class="galeria-item">
+          <img src="Imagenes/placeholder-instalacion2.jpg" alt="Salón de actividades" class="galeria-img" loading="lazy">
+          <figcaption class="sr-only">Salón de actividades</figcaption>
+        </figure>
+        <figure class="galeria-item">
+          <img src="Imagenes/placeholder-instalacion3.jpg" alt="Área infantil" class="galeria-img" loading="lazy">
+          <figcaption class="sr-only">Área para niños</figcaption>
+        </figure>
+        <figure class="galeria-item">
+          <img src="Imagenes/placeholder-instalacion4.jpg" alt="Exterior de la iglesia" class="galeria-img" loading="lazy">
+          <figcaption class="sr-only">Exterior del edificio</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Ministerios -->
+    <section id="ministerios" class="section-blur fade-in" aria-labelledby="ministerios-heading">
+      <h2 id="ministerios-heading">Nuestros Ministerios</h2>
+      <div class="ministerios-grid">
+        <article class="ministerio">
+          <div class="ministerio-icon">
+            <i class="fas fa-child" aria-hidden="true"></i>
+          </div>
+          <h3>Ministerio Infantil</h3>
+          <p>Enseñanza bíblica adaptada para niños de 3 a 12 años con actividades dinámicas y divertidas que les ayudan a conocer el amor de Jesús.</p>
+          <div class="ministerio-horario">
+            <p><strong>Horario:</strong> <time datetime="09:00">Domingos 9:00 AM</time></p>
+            <p><strong>Edades:</strong> 3 - 12 años</p>
+          </div>
+        </article>
+        
+        <article class="ministerio">
+          <div class="ministerio-icon">
+            <i class="fas fa-users" aria-hidden="true"></i>
+          </div>
+          <h3>Ministerio de Jóvenes</h3>
+          <p>Espacio para jóvenes de 13 a 25 años donde crecemos juntos en fe y amistad, enfrentando los desafíos de la juventud con Cristo.</p>
+          <div class="ministerio-horario">
+            <p><strong>Horario:</strong> <time datetime="19:30">Viernes 7:30 PM</time></p>
+            <p><strong>Edades:</strong> 13 - 25 años</p>
+          </div>
+        </article>
+        
+        <article class="ministerio">
+          <div class="ministerio-icon">
+            <i class="fas fa-music" aria-hidden="true"></i>
+          </div>
+          <h3>Ministerio de Alabanza</h3>
+          <p>Grupo de música que lidera la adoración en nuestros servicios y eventos especiales, ministrando a través de la música y el canto.</p>
+          <div class="ministerio-horario">
+            <p><strong>Ensayos:</strong> <time datetime="19:00">Miércoles 7:00 PM</time></p>
+            <p><strong>Requisitos:</strong> Conocimientos básicos musicales</p>
+          </div>
+        </article>
+        
+        <article class="ministerio">
+          <div class="ministerio-icon">
+            <i class="fas fa-heart" aria-hidden="true"></i>
+          </div>
+          <h3>Ministerio de Matrimonios</h3>
+          <p>Fortalecimiento de parejas a través de estudios bíblicos y actividades de comunión, construyendo matrimonios sólidos en Cristo.</p>
+          <div class="ministerio-horario">
+            <p><strong>Horario:</strong> <time datetime="18:00">Sábados 6:00 PM</time></p>
+            <p><strong>Modalidad:</strong> Parejas casadas</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Canal de Anuncios -->
+    <section id="anuncios" class="section-blur fade-in" aria-labelledby="anuncios-heading">
+      <h2 id="anuncios-heading">Canal de Anuncios</h2>
+      <div class="bienvenida-message">
+        <h3>¡Bienvenido/a a Monte de los Olivos!</h3>
+        <p>Nos alegra tenerte aquí. Encuentra toda la información importante de nuestra comunidad.</p>
+      </div>
+      
+      <div class="anuncios-grid">
+        <figure class="anuncio">
+          <img src="Imagenes/1.jpg" alt="Anuncio sobre próximas actividades" class="anuncio-img" loading="lazy">
+          <figcaption class="anuncio-caption">Próximas actividades de la iglesia</figcaption>
+        </figure>
+        <figure class="anuncio">
+          <img src="Imagenes/placeholder-anuncio2.jpg" alt="Información sobre bautismos" class="anuncio-img" loading="lazy">
+          <figcaption class="anuncio-caption">Información sobre bautismos</figcaption>
+        </figure>
+        <figure class="anuncio">
+          <img src="Imagenes/placeholder-anuncio3.jpg" alt="Eventos especiales" class="anuncio-img" loading="lazy">
+          <figcaption class="anuncio-caption">Eventos especiales del mes</figcaption>
+        </figure>
+      </div>
+      
+      <div class="cafeteria-destacada">
+        <figure>
+          <img src="Imagenes/coffee-2.jpg" alt="Cafetería Holy Food - espacio de comunión" class="cafeteria-img" loading="lazy">
+          <figcaption class="cafeteria-text">
+            <strong>Cafetería Holy Food ☕✨</strong>
+            <p>Un espacio para compartir y crear lazos de amistad después de los servicios</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Recursos Espirituales -->
+    <section id="recursos" class="section-blur fade-in" aria-labelledby="recursos-heading">
+      <h2 id="recursos-heading">Recursos Espirituales</h2>
+      
+      <div class="versiculo-dia">
+        <h3><i class="fas fa-quote-left" aria-hidden="true"></i> Versículo del Día</h3>
+        <blockquote id="versiculo-texto" cite="Jeremías 29:11">
+          "Porque yo sé los pensamientos que tengo acerca de vosotros, dice Jehová, pensamientos de paz, y no de mal, para daros el fin que esperáis."
+        </blockquote>
+        <cite>— Jeremías 29:11</cite>
+        <button id="nuevo-versiculo" class="btn-secundario" aria-label="Obtener nuevo versículo del día">
+          <i class="fas fa-refresh" aria-hidden="true"></i> Nuevo versículo
+        </button>
+      </div>
+      
+      <div class="recursos-grid">
+        <article class="recurso">
+          <div class="recurso-icon">
+            <i class="fas fa-podcast" aria-hidden="true"></i>
+          </div>
+          <h4>Sermones</h4>
+          <p>Escucha nuestros sermones más recientes y crece espiritualmente desde casa</p>
+          <button class="btn-recurso" aria-label="Escuchar sermones recientes">
+            <i class="fas fa-play" aria-hidden="true"></i> Escuchar
+          </button>
+        </article>
+        
+        <article class="recurso">
+          <div class="recurso-icon">
+            <i class="fas fa-book" aria-hidden="true"></i>
+          </div>
+          <h4>Estudios Bíblicos</h4>
+          <p>Material de estudio para profundizar en la Palabra de Dios y fortalecer tu fe</p>
+          <button class="btn-recurso" aria-label="Descargar material de estudio bíblico">
+            <i class="fas fa-download" aria-hidden="true"></i> Descargar
+          </button>
+        </article>
+        
+        <article class="recurso">
+          <div class="recurso-icon">
+            <i class="fas fa-pray" aria-hidden="true"></i>
+          </div>
+          <h4>Peticiones de Oración</h4>
+          <p>Comparte tus peticiones con nuestra comunidad y oremos juntos por tus necesidades</p>
+          <button class="btn-recurso" onclick="document.getElementById('contacto').scrollIntoView({behavior: 'smooth'})" aria-label="Enviar petición de oración">
+            <i class="fas fa-paper-plane" aria-hidden="true"></i> Enviar
+          </button>
+        </article>
+        
+        <article class="recurso">
+          <div class="recurso-icon">
+            <i class="fas fa-bible" aria-hidden="true"></i>
+          </div>
+          <h4>Lectura Diaria</h4>
+          <p>Plan de lectura bíblica para acompañarte cada día en tu crecimiento espiritual</p>
+          <button class="btn-recurso" aria-label="Ver plan de lectura bíblica">
+            <i class="fas fa-calendar-check" aria-hidden="true"></i> Ver Plan
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <!-- Ubicación -->
+    <section id="ubicacion" class="section-blur fade-in" aria-labelledby="ubicacion-heading">
+      <h2 id="ubicacion-heading">Nuestra Ubicación</h2>
+      <div class="ubicacion-content">
+        <address class="direccion">
+          <h3>Dirección</h3>
+          <p>
+            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+            Calle de Secoya 20<br>
+            Madrid, España
+          </p>
+        </address>
+        
+        <div class="ubicacion-imagen">
+          <figure>
+            <img src="Imagenes/Calle secoya.png" alt="Ubicación de la Iglesia Monte de los Olivos en Calle Secoya 20, Madrid" class="ubicacion-img" loading="lazy">
+            <figcaption>Vista de nuestra ubicación en Calle Secoya</figcaption>
+          </figure>
+        </div>
+        
+        <div class="ubicacion-acciones">
+          <a href="https://maps.app.goo.gl/GgqHqMwL1ahNXZ3V8" target="_blank" rel="noopener noreferrer" class="btn-map" aria-label="Abrir ubicación en Google Maps">
+            <i class="fas fa-map-marked-alt" aria-hidden="true"></i> Ver en Google Maps
+          </a>
+          <button class="btn-direcciones" aria-label="Obtener direcciones a la iglesia">
+            <i class="fas fa-route" aria-hidden="true"></i> Cómo llegar
+          </button>
+        </div>
+        
+        <div class="transporte-info">
+          <h4>Cómo llegar</h4>
+          <ul>
+            <li><strong>Metro:</strong> Línea 1 - Estación Plaza de Castilla</li>
+            <li><strong>Bus:</strong> Líneas 42, 124, 147</li>
+            <li><strong>Parking:</strong> Disponible en calles cercanas</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="section-blur fade-in" aria-labelledby="testimonios-heading">
+      <h2 id="testimonios-heading">Testimonios</h2>
+      <div class="testimonios-container">
+        <article class="testimonio">
+          <div class="testimonio-content">
+            <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
+            <p>"Monte de los Olivos se ha convertido en mi segunda familia. Aquí he encontrado paz, amor y una comunidad que realmente se preocupa por cada persona."</p>
+          </div>
+          <div class="testimonio-autor">
+            <img src="Imagenes/placeholder-testimonio1.jpg" alt="Foto de María García" class="testimonio-foto" loading="lazy">
+            <div class="autor-info">
+              <h4>María García</h4>
+              <p>Miembro desde 2019</p>
+            </div>
+          </div>
+        </article>
+        
+        <article class="testimonio">
+          <div class="testimonio-content">
+            <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
+            <p>"Los ministerios para jóvenes han transformado mi vida. He crecido en mi fe y he encontrado amigos verdaderos que me apoyan en todo momento."</p>
+          </div>
+          <div class="testimonio-autor">
+            <img src="Imagenes/placeholder-testimonio2.jpg" alt="Foto de Carlos Ruiz" class="testimonio-foto" loading="lazy">
+            <div class="autor-info">
+              <h4>Carlos Ruiz</h4>
+              <p>Miembro del Ministerio de Jóvenes</p>
+            </div>
+          </div>
+        </article>
+        
+        <article class="testimonio">
+          <div class="testimonio-content">
+            <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
+            <p>"Como familia, hemos encontrado en Monte de los Olivos un lugar donde nuestros hijos pueden crecer en valores cristianos rodeados de amor."</p>
+          </div>
+          <div class="testimonio-autor">
+            <img src="Imagenes/placeholder-testimonio3.jpg" alt="Foto de Ana y Pedro López" class="testimonio-foto" loading="lazy">
+            <div class="autor-info">
+              <h4>Familia López</h4>
+              <p>Miembros desde 2020</p>
+            </div>
+          </div>
+        </article>
+      </div>
+      
+      <!-- Formulario para agregar testimonio -->
+      <div class="agregar-testimonio">
+        <h3>Comparte tu testimonio</h3>
+        <form id="testimonioForm" class="testimonio-form" novalidate>
+          <div class="form-group">
+            <label for="testimonio-nombre">Tu nombre:</label>
+            <input type="text" id="testimonio-nombre" name="nombre" required aria-describedby="nombre-help">
+            <small id="nombre-help" class="help-text">Tu nombre aparecerá junto al testimonio</small>
+          </div>
+          
+          <div class="form-group">
+            <label for="testimonio-texto">Tu testimonio:</label>
+            <textarea id="testimonio-texto" name="testimonio" rows="4" required aria-describedby="testimonio-help" placeholder="Comparte cómo Dios ha obrado en tu vida..."></textarea>
+            <small id="testimonio-help" class="help-text">Comparte tu experiencia en nuestra iglesia</small>
+          </div>
+          
+          <button type="submit" class="btn-primario">
+            <i class="fas fa-heart" aria-hidden="true"></i> Compartir Testimonio
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Donaciones -->
+    <section id="donaciones" class="section-blur fade-in" aria-labelledby="donaciones-heading">
+      <h2 id="donaciones-heading">Donaciones</h2>
+      <div class="donaciones-intro">
+        <p class="donaciones-texto">Tu apoyo hace posible nuestra misión de llevar el amor de Cristo a nuestra comunidad 🙏</p>
+        <blockquote class="versiculo-donacion">
+          "Cada uno dé como propuso en su corazón: no con tristeza, ni por necesidad, porque Dios ama al dador alegre."
+          <cite>— 2 Corintios 9:7</cite>
+        </blockquote>
+      </div>
+      
+      <div class="donaciones-grid">
+        <div class="donacion-metodo">
+          <div class="donacion-icon">
+            <img src="Imagenes/bizum.png" alt="Logo de Bizum" class="metodo-logo" loading="lazy">
+          </div>
+          <div class="donacion-info">
+            <h3>Bizum</h3>
+            <p class="donacion-numero">+34 670 72 72 47</p>
+            <p class="donacion-descripcion">Forma rápida y segura de contribuir desde España</p>
+            <button class="btn-donar" aria-label="Información sobre donación por Bizum">
+              <i class="fas fa-mobile-alt" aria-hidden="true"></i> Donar con Bizum
+            </button>
+          </div>
+        </div>
+        
+        <div class="donacion-metodo">
+          <div class="donacion-icon">
+            <img src="Imagenes/paypal.png" alt="Logo de PayPal" class="metodo-logo" loading="lazy">
+          </div>
+          <div class="donacion-info">
+            <h3>PayPal</h3>
+            <p class="donacion-email">montelosolivo@gmail.com</p>
+            <p class="donacion-descripcion">Donaciones seguras desde cualquier parte del mundo</p>
+            <button class="btn-donar" aria-label="Donar a través de PayPal">
+              <i class="fab fa-paypal" aria-hidden="true"></i> Donar con PayPal
+            </button>
+          </div>
+        </div>
+        
+        <div class="donacion-metodo">
+          <div class="donacion-icon">
+            <i class="fas fa-university" aria-hidden="true"></i>
+          </div>
+          <div class="donacion-info">
+            <h3>Transferencia Bancaria</h3>
+            <p class="donacion-banco">Cuenta disponible en secretaría</p>
+            <p class="donacion-descripcion">Para donaciones de mayor cantidad o regulares</p>
+            <button class="btn-donar" onclick="document.getElementById('contacto').scrollIntoView({behavior: 'smooth'})" aria-label="Solicitar información de cuenta bancaria">
+              <i class="fas fa-info-circle" aria-hidden="true"></i> Solicitar Información
+            </button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="uso-donaciones">
+        <h3>¿Cómo utilizamos las donaciones?</h3>
+        <div class="usos-grid">
+          <div class="uso-item">
+            <i class="fas fa-church" aria-hidden="true"></i>
+            <h4>Mantenimiento</h4>
+            <p>Cuidado y mejoras del edificio</p>
+          </div>
+          <div class="uso-item">
+            <i class="fas fa-hands-helping" aria-hidden="true"></i>
+            <h4>Ministerios</h4>
+            <p>Apoyo a todos nuestros ministerios</p>
+          </div>
+          <div class="uso-item">
+            <i class="fas fa-heart" aria-hidden="true"></i>
+            <h4>Ayuda Social</h4>
+            <p>Apoyo a familias necesitadas</p>
+          </div>
+          <div class="uso-item">
+            <i class="fas fa-globe" aria-hidden="true"></i>
+            <h4>Misiones</h4>
+            <p>Evangelización y misiones</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section-blur fade-in" aria-labelledby="contacto-heading">
+      <h2 id="contacto-heading">Contacto</h2>
+      <div class="contacto-container">
+        <div class="contacto-info">
+          <h3>Información de Contacto</h3>
+          
+          <div class="contacto-item">
+            <div class="contacto-icon">
+              <i class="fas fa-phone" aria-hidden="true"></i>
+            </div>
+            <div class="contacto-details">
+              <h4>Teléfono</h4>
+              <p>
+                <a href="tel:+34670727247" aria-label="Llamar al +34 670 72 72 47">
+                  +34 670 72 72 47
+                </a>
+              </p>
+              <small>Disponible de lunes a viernes, 10:00 - 18:00</small>
+            </div>
+          </div>
+          
+          <div class="contacto-item">
+            <div class="contacto-icon">
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+            </div>
+            <div class="contacto-details">
+              <h4>Email</h4>
+              <p>
+                <a href="mailto:montelosolivo@gmail.com" aria-label="Enviar email a montelosolivo@gmail.com">
+                  montelosolivo@gmail.com
+                </a>
+              </p>
+              <small>Respuesta en 24-48 horas</small>
+            </div>
+          </div>
+          
+          <div class="contacto-item">
+            <div class="contacto-icon">
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+            </div>
+            <div class="contacto-details">
+              <h4>Dirección</h4>
+              <address>
+                Calle de Secoya 20<br>
+                Madrid, España
+              </address>
+              <small>Fácil acceso en transporte público</small>
+            </div>
+          </div>
+          
+          <div class="contacto-item">
+            <div class="contacto-icon">
+              <i class="fas fa-clock" aria-hidden="true"></i>
+            </div>
+            <div class="contacto-details">
+              <h4>Horarios de Oficina</h4>
+              <p>
+                Lunes a Viernes: 10:00 - 18:00<br>
+                Sábados: 10:00 - 14:00<br>
+                Domingos: Solo servicios religiosos
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <form class="contacto-form" id="contactForm" novalidate>
+          <h3>Envíanos un mensaje</h3>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contact-nombre">Nombre completo *</label>
+              <input type="text" id="contact-nombre" name="nombre" required aria-describedby="nombre-error">
+              <span id="nombre-error" class="error-message" role="alert"></span>
+            </div>
+            
+            <div class="form-group">
+              <label for="contact-email">Email *</label>
+              <input type="email" id="contact-email" name="email" required aria-describedby="email-error">
+              <span id="email-error" class="error-message" role="alert"></span>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="contact-telefono">Teléfono (opcional)</label>
+            <input type="tel" id="contact-telefono" name="telefono" placeholder="+34 600 000 000">
+          </div>
+          
+          <div class="form-group">
+            <label for="contact-tema">Tema de consulta *</label>
+            <select id="contact-tema" name="tema" required aria-describedby="tema-error">
+              <option value="">Selecciona un tema</option>
+              <option value="consulta">Consulta general</option>
+              <option value="oracion">Petición de oración</option>
+              <option value="bautismo">Información sobre bautismo</option>
+              <option value="matrimonio">Información sobre matrimonio</option>
+              <option value="ministerio">Unirse a un ministerio</option>
+              <option value="eventos">Información sobre eventos</option>
+              <option value="visita">Primera visita</option>
+              <option value="otros">Otros</option>
+            </select>
+            <span id="tema-error" class="error-message" role="alert"></span>
+          </div>
+          
+          <div class="form-group">
+            <label for="contact-mensaje">Tu mensaje *</label>
+            <textarea id="contact-mensaje" name="mensaje" rows="6" required aria-describedby="mensaje-error" placeholder="Comparte tu consulta o petición..."></textarea>
+            <span id="mensaje-error" class="error-message" role="alert"></span>
+          </div>
+          
+          <div class="form-group checkbox-group">
+            <label class="checkbox-label">
+              <input type="checkbox" id="contact-privacidad" name="privacidad" required>
+              <span class="checkmark"></span>
+              He leído y acepto el tratamiento de mis datos según la política de privacidad *
+            </label>
+            <span id="privacidad-error" class="error-message" role="alert"></span>
+          </div>
+          
+          <div class="form-group checkbox-group">
+            <label class="checkbox-label">
+              <input type="checkbox" id="contact-newsletter" name="newsletter">
+              <span class="checkmark"></span>
+              Deseo recibir información sobre eventos y actividades
+            </label>
+          </div>
+          
+          <button type="submit" class="btn-primario btn-submit">
+            <span class="btn-text">
+              <i class="fas fa-paper-plane" aria-hidden="true"></i> 
+              Enviar Mensaje
+            </span>
+            <span class="btn-loading hidden">
+              <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
+              Enviando...
+            </span>
+          </button>
+        </form>
+      </div>
+      
+      <!-- Mensaje de confirmación -->
+      <div id="mensaje-confirmacion" class="mensaje-confirmacion hidden" role="alert" aria-live="polite">
+        <div class="confirmacion-content">
+          <i class="fas fa-check-circle" aria-hidden="true"></i>
+          <h4>¡Mensaje enviado correctamente!</h4>
+          <p>Gracias por contactarnos. Te responderemos en las próximas 24-48 horas.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Redes Sociales -->
+    <section id="redes-sociales" class="section-blur fade-in" aria-labelledby="redes-heading">
+      <h2 id="redes-heading">Síguenos</h2>
+      <div class="redes-container">
+        <p>Mantente conectado con nuestra comunidad en redes sociales</p>
+        <div class="redes-grid">
+          <a href="#" class="red-social facebook" aria-label="Seguir en Facebook" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+            <span>Facebook</span>
+          </a>
+          <a href="#" class="red-social instagram" aria-label="Seguir en Instagram" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+            <span>Instagram</span>
+          </a>
+          <a href="#" class="red-social youtube" aria-label="Suscribirse en YouTube" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-youtube" aria-hidden="true"></i>
+            <span>YouTube</span>
+          </a>
+          <a href="#" class="red-social whatsapp" aria-label="Contactar por WhatsApp" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+            <span>WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Subscription -->
+    <section id="newsletter" class="section-blur fade-in" aria-labelledby="newsletter-heading">
+      <h2 id="newsletter-heading">Mantente Informado</h2>
+      <div class="newsletter-container">
+        <div class="newsletter-content">
+          <h3>Recibe nuestro boletín semanal</h3>
+          <p>Mantente al día con eventos, sermones y noticias de nuestra comunidad</p>
+        </div>
+        
+        <form class="newsletter-form" id="newsletterForm" novalidate>
+          <div class="newsletter-input-group">
+            <label for="newsletter-email" class="sr-only">Tu email para el boletín</label>
+            <input 
+              type="email" 
+              id="newsletter-email" 
+              name="email" 
+              placeholder="tu@email.com" 
+              required 
+              aria-describedby="newsletter-email-error"
+            >
+            <button type="submit" class="btn-newsletter" aria-label="Suscribirse al boletín">
+              <i class="fas fa-paper-plane" aria-hidden="true"></i>
+              Suscribirse
+            </button>
+          </div>
+          <span id="newsletter-email-error" class="error-message" role="alert"></span>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer fade-in" role="contentinfo">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Monte de los Olivos</h4>
+        <p>Una comunidad de fe en el corazón de Madrid, comprometida con el amor de Cristo y el servicio a nuestro prójimo.</p>
+        <div class="footer-redes">
+          <a href="#" aria-label="Facebook" class="footer-red">
+            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+          </a>
+          <a href="#" aria-label="Instagram" class="footer-red">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a href="#" aria-label="YouTube" class="footer-red">
+            <i class="fab fa-youtube" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Contacto Rápido</h4>
+        <div class="footer-contacto">
+          <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Calle Secoya 20, Madrid</p>
+          <p><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+34670727247">+34 670 72 72 47</a></p>
+          <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:montelosolivo@gmail.com">montelosolivo@gmail.com</a></p>
+        </div>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Servicios</h4>
+        <ul class="footer-servicios">
+          <li>Culto Dominical: 9:00 AM</li>
+          <li>Servicio de Jueves: 8:30 PM</li>
+          <li>Ministerio Juvenil: Viernes 7:30 PM</li>
+          <li>Ministerio Infantil: Domingos 9:00 AM</li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Enlaces Útiles</h4>
+        <nav class="footer-nav" aria-label="Enlaces útiles del pie de página">
+          <ul>
+            <li><a href="#horarios">Horarios</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#ministerios">Ministerios</a></li>
+            <li><a href="#recursos">Recursos</a></li>
+            <li><a href="#donaciones">Donaciones</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 Monte de los Olivos — Todos los derechos reservados.</p>
+      <div class="footer-legal">
+        <a href="#" class="legal-link">Política de Privacidad</a>
+        <span class="separator">|</span>
+        <a href="#" class="legal-link">Términos de Uso</a>
+        <span class="separator">|</span>
+        <a href="#" class="legal-link">Cookies</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón de scroll to top -->
+  <button id="scroll-to-top" class="scroll-to-top" aria-label="Volver arriba" title="Volver arriba">
+    <i class="fas fa-chevron-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- Classes para screen readers -->
+  <div class="sr-only-content">
+    <h2 class="sr-only">Información adicional para lectores de pantalla</h2>
+    <p class="sr-only">
+      Esta página contiene información sobre la Iglesia Monte de los Olivos en Madrid. 
+      Utiliza las teclas Tab y Shift+Tab para navegar entre los elementos interactivos.
+    </p>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  
+  <!-- Script para funcionalidades mejoradas -->
+  <script>
+    // Inicialización cuando el DOM está listo
+    document.addEventListener('DOMContentLoaded', function() {
+      // Ocultar spinner de carga
+      const loadingSpinner = document.getElementById('loading-spinner');
+      if (loadingSpinner) {
+        setTimeout(() => {
+          loadingSpinner.style.display = 'none';
+        }, 1000);
+      }
+      
+      // Agregar funcionalidad al botón de scroll to top
+      const scrollToTopBtn = document.getElementById('scroll-to-top');
+      
+      window.addEventListener('scroll', function() {
+        if (window.pageYOffset > 300) {
+          scrollToTopBtn.classList.add('visible');
+        } else {
+          scrollToTopBtn.classList.remove('visible');
+        }
+      });
+      
+      scrollToTopBtn.addEventListener('click', function() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+      
+      // Funcionalidad del menú móvil
+      const mobileToggle = document.querySelector('.mobile-menu-toggle');
+      const menu = document.querySelector('.menu-horizontal');
+      
+      mobileToggle.addEventListener('click', function() {
+        const isExpanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', !isExpanded);
+        menu.classList.toggle('active');
+        
+        // Cambiar icono
+        const icon = this.querySelector('i');
+        if (menu.classList.contains('active')) {
+          icon.className = 'fas fa-times';
+        } else {
+          icon.className = 'fas fa-bars';
+        }
+      });
+      
+      // Cerrar menú al hacer clic en un enlace (móvil)
+      const menuItems = document.querySelectorAll('.menu-item');
+      menuItems.forEach(item => {
+        item.addEventListener('click', function() {
+          if (window.innerWidth <= 768) {
+            menu.classList.remove('active');
+            mobileToggle.setAttribute('aria-expanded', 'false');
+            mobileToggle.querySelector('i').className = 'fas fa-bars';
+          }
+        });
+      });
+      
+      // Mejorar accesibilidad del teclado
+      document.addEventListener('keydown', function(e) {
+        // Cerrar menú con Escape
+        if (e.key === 'Escape' && menu.classList.contains('active')) {
+          menu.classList.remove('active');
+          mobileToggle.setAttribute('aria-expanded', 'false');
+          mobileToggle.querySelector('i').className = 'fas fa-bars';
+          mobileToggle.focus();
+        }
+      });
+    });
+    
+    // Función para generar nuevo versículo (ejemplo)
+    document.getElementById('nuevo-versiculo')?.addEventListener('click', function() {
+      const versiculos = [
+        {
+          texto: "Todo lo puedo en Cristo que me fortalece.",
+          cita: "Filipenses 4:13"
+        },
+        {
+          texto: "Porque yo sé los pensamientos que tengo acerca de vosotros, dice Jehová, pensamientos de paz, y no de mal, para daros el fin que esperáis.",
+          cita: "Jeremías 29:11"
+        },
+        {
+          texto: "Confía en Jehová de todo tu corazón, y no te apoyes en tu propia prudencia.",
+          cita: "Proverbios 3:5"
+        }
+      ];
+      
+      const random = Math.floor(Math.random() * versiculos.length);
+      const versiculo = versiculos[random];
+      
+      document.getElementById('versiculo-texto').textContent = versiculo.texto;
+      document.querySelector('#recursos cite').textContent = `— ${versiculo.cita}`;
+    });
+  </script>
+</body>
+</html>
